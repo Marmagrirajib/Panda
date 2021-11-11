@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,6 +18,138 @@
     <title>Panda</title>
   </head>
   <body>
+
+    <!-- header start -->
+     <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              
+              <div class="collapse navbar-collapse menu" id="nav-menu">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+     </header>
+
+     <!-- header end -->
+
+     <!-- banner start -->
+  
+   
+        <div class="container banner">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active banner-item">
+                  <div class="row d-flex align-items-center">
+                      <div class="col-lg-7">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            <p>Mi TV is virtually frameless. We use one of the best panels from Samsung and LG to create a 47” 1920x1080 Full HD television with a super slim profile and an 8.4mm frame. Mi TV also supports Dolby Stereo and DTS to bring you the best audio experience.</p>
+                            <h2>$1200</h2>
+                            <button class="buy">BUY NOW</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item banner-item">
+                <div class="row d-flex align-items-center">
+                      <div class="col-lg-7">
+                            <h1>Sony XB900 Wireless Headphones</h1>
+                            <p>Whether you're looking for sleek AirPods or big over-ear models, these are the best headphones and earbuds we've tested, with advice for finding just the right pair for you.</p>
+                            <h2>$499</h2>
+                            <button class="buy">BUY NOW</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item banner-item">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-7">
+                        <h1>Tanix TX6 Android 9.0 TV Box</h1>
+                        <p>anix TX6 Android TV box winner H6 core 64-bit processor, Mali T720 GPU, 4GB DDR3 RAM and 32GB ROM internal storage, up to 2TB via external HDD, Android 9.0 operating system, dual-band Wi-Fi, SPDIF output, TF card, external antenna</p>
+                        <h2>$600</h2>
+                        <button class="buy">BUY NOW</button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+     </section>
+     
+     <!-- banner end -->
+
+     <!-- cata start -->
+     <div class="container">
+       <h2>Catagories</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="citem1 d-flex justify-content-between align-items-center">
+                    <h2>WATCH</h2>
+                    <div class="cimage">
+                      <img src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+              <div class="citem2 d-flex justify-content-between align-items-center">
+                  <h2>BAG</h2>
+                  <div class="cimage">
+                    <img src="images/categories/bag.png" alt="">
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="citem3 d-flex justify-content-between align-items-center">
+                <h2>SHOES</h2>
+                <div class="cimage">
+                  <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+     </div>
+     
+     <!-- cata end -->
     
     
 

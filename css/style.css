@@ -1,0 +1,112 @@
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+/* header start */
+
+.container{
+    margin-bottom: 80px;
+
+}
+
+.menu ul li a{
+    padding: 0 30px !important;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.6s;
+
+}
+
+.menu ul li a:hover{
+    color: rgb(255, 67, 161) !important;
+}
+
+
+/* header end */
+
+/* banner start */
+
+
+
+.banner{
+    
+    border-radius: 10px;
+    background-color: #feeae9;
+
+}
+
+.banner-item{
+    padding: 20px 20px;
+
+}
+
+.banner-item h1{
+
+}
+
+.banner p{
+    padding: 10px 0;
+    letter-spacing: 1px;
+
+}
+.banner-item h2{
+    color: #FF136F;
+
+}
+.buy{
+    padding: 6px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FF136F;
+    color: white;
+
+}
+
+/* banner end */
+
+/* cata start */
+
+.citem1{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #fab83d;
+}
+
+.citem2{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #FF589B;
+}
+
+
+.citem3{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #4289FF;
+}
+
+
+
+.citem1 h2{
+    padding-left: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.citem2 h2{
+    padding-left: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.citem3 h2{
+    padding-left: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
